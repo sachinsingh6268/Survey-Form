@@ -1,0 +1,62 @@
+ body{
+    font-family: 'Anaheim', sans-serif;
+    font-size:1.2em;
+    background-color:rgba(157, 172, 75, 0.795);
+ }
+ 
+  
+.container{
+    border:1px solid #999;
+    border-radius:.9em;
+    width:70%;
+    margin: 20px auto;
+    background-color: white;
+}
+fieldset{
+    margin:1em 2em;
+    border:1px solid lightgrey;
+}
+legend{
+    font-weight:700;
+}
+h1{
+    text-align:center;
+    margin-top:1.4em;
+    font-size:1.5em;
+    text-transform:capitalize;
+}
+div{
+    margin:1em;
+} 
+ 
+textarea{
+    margin:1em 0;
+}
+input,textarea{
+    border:1px solid #999;
+}
+input:focus,textarea:focus{
+border-color:rgb(173, 28, 28);
+ }
+button{
+    background-color:red;
+    border:none;
+    color:white;
+    border-radius:2px;
+    padding:5px;
+    font-size:1em;
+    text-transform:capitalize;
+}
+p{
+    margin:1.5em;
+    font-size:larger;
+}
+.different{
+    margin: .5em 1em;
+}
+ #submitbutton  {
+     display:flex;
+     justify-content:center; 
+ }
+  
+  
